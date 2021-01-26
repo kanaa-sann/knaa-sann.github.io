@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+}
+.メインビジュアル {
+	position: relative;	
+
+	background-size: cover;
+	background-position: center;
+}
+
+.メインビジュアル img {
+	width: 100%;
+}
+
+h1 {
+	position: absolute;
+	top: 60px;
+	right:50%;
+	color: rgba(255, 255, 255, 0.8);	
+	font-size: 40px;
+	font-family: Helvetica;
+	letter-spacing: 0.2em;
+}
+
+
+
+
+
+.コンテンツA {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.コンテンツA img {
+	width: 100%;
+}
+
+
+.中見出し {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.文章 {
+	max-width: 20em;
+}
+
+
+
+
+.コンテンツB {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 400px);	
+	grid-gap: 20px;	
+	justify-content: center;	
+	margin: 60px 40px 60px 40px;
+}
+
+.コンテンツB img {
+	width: 100%;
+}
+
+.コンテンツC {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.説明文A{
+	font-size: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.コンテンツC {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 600px);	
+	grid-gap: 20px;	
+	justify-content: center;	
+	margin: 60px 40px 60px 40px;
+}
+
+.コンテンツC img {
+	width: 100%;
+}
+
+.ああ {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+h2 {
+	font-size: 60px;
+	text-align: center;
+
+}
+.見出し説明 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.説明文B{
+	font-size: 10px;
+	text-align: center;
+}
+
+
+.コンテンツD {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 900px);	
+	grid-gap: 20px;	
+	justify-content: center;	
+	margin: 60px 40px 60px 40px;
+}
+
+.コンテンツD img {
+	width: 100%;
+}
+
+.ああa {
+	font-size: 20px;
+	text-align: center;
+}
+
+
+h3 {
+	font-size: 60px;
+	text-align: center;
+
+}
+.見出し説明A {
+	font-size: 20px;
+	text-align: center;
+}
+
+.説明文C{
+	font-size: 10px;
+	text-align: center;
+}
+
